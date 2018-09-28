@@ -5,6 +5,7 @@ body {
 	background-color: #eee;
 }
 
+
 .navbar {
 	padding: 0 5%;
 	display: flex;
@@ -39,4 +40,22 @@ body {
 .navbar ul li a:hover {
 	color: #fff;
 	transition: 0.2s;
+}
+
+
+.container {
+	padding: 0 5%;
+}
+
+.gallery {
+	margin: 36px 0;
+	padding: -12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery img {
+	height: 200px;
+	margin: 12px;
 }
